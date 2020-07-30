@@ -29,7 +29,25 @@ button{
 
     background-color: #025157;
     color: #fff;
+  
+}
 
+
+
+#input{
+
+    border-radius: 5px 0px 0px 5px;
+    height: 40px;
+    width: 200px;
+    border: solid 1px grey;
+    padding-left: 15px;
 
 }
 
+#button{
+
+    border-radius: 0px 5px 5px 0px;
+    height: 44px;
+    border: solid 0px black;
+    margin-left: -4px;
+}

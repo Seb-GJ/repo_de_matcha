@@ -227,6 +227,90 @@
 
 }
 
+.features{
+  background-color: #025157;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  margin-top: 50px;
+  padding: 5% 10%;
+
+}
+
+.feature-card{
+
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  margin: 0 15px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  
+
+}
+
+.feature-card .feature-content{
+  flex: 2;
+  padding: 30px 20px 40px 40px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.feature-card .feature-content > *{
+  margin-bottom: 1rem;
+  margin-top: 0;
+
+}
+
+
+
+.feature-card .feature-content img{
+
+  width: 50px;
+  
+}
+
+.feature-card .feature-content h3{
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+    
+}
+
+.feature-card .feature-content p{
+
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+
+.feature-card .feature-content a{
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+  
+
+}
+
+.feature-card .feature-image{
+  flex: 1;
+  
+ }
+
+.feature-card .feature-image img{
+
+  position: relative;
+  right: -100px;
+  height: 80%;
+  flex: 1;
+  width: 350px;
+
+}
+
 .successfull-stories {
 
   background-color: #a1d683;
@@ -312,8 +396,8 @@
   
 }
 
-.carrousel .carrousel-info h4, .carrousel .carrousel-info h3, .carrousel .carrousel-info h3, 
-.carrousel .carrousel-info h3, .carrousel .carrousel-info p, .carrousel .carrousel-info button
+.carrousel .carrousel-info h4, .carrousel .carrousel-info h3, 
+.carrousel .carrousel-info p, .carrousel .carrousel-info button
 {
   padding-left: 15px;
   padding-right: 15px;

@@ -109,7 +109,7 @@
     margin: 30px auto;
   }
   
-  .section h1 {
+  .section h1{
     color: #025157;
     font-family: 'Alegreya', serif;
     font-size: 60px;
@@ -117,11 +117,12 @@
     font-weight: 800;
   }
   
-  .section p {
+  .section p{
     color: #46484c;
     font-size: 20px;
     margin-bottom: 30px;
     font-family: 'Slabo 27px', serif;
+
   }
   
   .section form {
@@ -279,14 +280,15 @@
     
 }
 
-.feature-card .feature-content p{
+.feature-card .feature-content p, .how-it-works .steps .card-step .card-content p{
 
   font-size: 16px;
   color: #7e7e7e;
   font-weight: 400;
+
 }
 
-.feature-card .feature-content a{
+.feature-card .feature-content a, {
   font-size: 16px;
   color: #67b54b;
   font-weight: 600;
@@ -315,7 +317,6 @@ height: 100%;
 .successfull-stories {
 
   background-color: #a1d683;
-  margin-top: 20px;
   display: flex;
   flex-direction: row;
   padding-top: 30px;
@@ -359,6 +360,7 @@ height: 100%;
   justify-content: center;
   text-align: left;
   padding-right: 15%;
+  padding-bottom: 20px;
 }
 
 .carrousel-info{
@@ -405,8 +407,97 @@ height: 100%;
 
 }
 
+.how-it-works{
+  background-color: #fffbf7;
+  padding: 5% 10%;
+  text-align: center;
+}
 
+.how-it-works h2{
+  color: #025157;
+  font-family: 'Alegreya', serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
 
+.how-it-works p{
+  max-width: 60%;
+    color: #46484c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
 
+.how-it-works button{
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 12px 12px 6px 12px;
+  height: 45px;
+  margin-left: 0;
+  border-radius: 8px;
+  margin-top: 6px;
+  background-color: #025157;
+  color: #fff;
+  border: none;
+  padding: 6px 20px;
+}
 
+.how-it-works .steps{
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
+.how-it-works .steps .card-step{
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.how-it-works .steps .card-step .card-step-image{
+  position: relative;
+  height: 350px;
+}
+
+.how-it-works .steps .card-step .card-step-image .card-step-bg{
+  width: 100%;
+  height: 100%;
+}
+
+.how-it-works .steps .card-step .card-step-image .card-step-icon{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 21px;
+
+}
+
+.how-it-works .steps .card-step .card-content{
+  padding: 25px;
+}
+
+.how-it-works .steps .card-step .card-content h3{
+
+  color: #025157;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400px;
+  font-family: font-family: 'Alegreya', serif;;
+
+}
+
+.how-it-works .steps .card-content a{
+
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+
+}

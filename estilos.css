@@ -424,12 +424,12 @@ height: 100%;
 
 .how-it-works p{
   max-width: 60%;
-    color: #46484c;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin: 0 auto;
-    margin-bottom: 16px;
+  color: #46484c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-bottom: 16px;
 }
 
 .how-it-works button{

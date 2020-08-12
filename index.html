@@ -5,35 +5,37 @@
   <link rel="stylesheet" href="estilos.css">
   <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
   <!-- Aquí va información importante pero no visible
          dentro del navegador -->
   <title>Matcha clase</title>
 </head>
 
 <body>  
+  <section class="fixed-header">
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
+      </a>
+      <nav class="navbar">
+        <ul>
+          <li class="menu-item">Platform</li>
+          <li class="menu-item">Pricing</li>
+          <li class="menu-item">Customers</li>
+          <li class="menu-item">Resources</li>
+          <li class="menu-item">About</li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <a href="#">Sign In</a>
+        <button>Start Free Trial</button>
+      </div>
+
+    </header>
+  </section>
 
   <main>
-    <section class="fixed-header">
-      <header class="header">
-        <a href="#" class="logo">
-          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
-        </a>
-        <nav class="navbar">
-          <ul>
-            <li class="menu-item">Platform</li>
-            <li class="menu-item">Pricing</li>
-            <li class="menu-item">Customers</li>
-            <li class="menu-item">Resources</li>
-            <li class="menu-item">About</li>
-          </ul>
-        </nav>
-        <div class="actions">
-          <a href="#">Sign In</a>
-          <button>Start Free Trial</button>
-        </div>
-  
-      </header>
-    </section>
+
     <section class="section">
       <!-- Esto es lo que se verá en el navegador web -->
       <h1>Build your blog. Build your business.</h1>
@@ -81,10 +83,12 @@
         </p>
         <form>
           <p>Start publishing today:</p>
-          <input type="email" placeholder="Enter your email."/>
-          <button type="submit">
-            Start Now
-          </button>
+          <div>
+            <input type="email" placeholder="Enter your email."/>
+            <button type="submit">
+              Start Now
+            </button>
+        </div>
         </form>
 
       </article>
@@ -150,7 +154,7 @@
     </section>
 
 
-    <section class="successfull-stories">
+  <!--  <section class="successfull-stories">
 
       <article class="clients-reference">
 
@@ -185,7 +189,7 @@
         </div>
       </article>
 
-    </section>
+    </section> -->
 
     <section class="how-it-works">
 

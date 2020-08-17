@@ -443,7 +443,7 @@ padding: 35px;
   background-position: center;
 }
 .success-stories .stories-carousel .card .card-circle-mambe {
-  position: absolute;
+
   bottom: 255px;
   right: 20px;
   width: 100px;
@@ -459,20 +459,14 @@ padding: 35px;
   border: 5px solid #ef7179;
 }
 .success-stories .stories-carousel .card .customer-title {
-  font-style: normal;
+ 
   font-weight: 400;
   font-size: 23px;
   line-height: 30px;
   color: #000;
-  margin-bottom: 20px;
+  
 }
-.success-stories .stories-carousel .card .results {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  color: #666666;
-}
+
 /* este es mi codigo 
 .successfull-stories {
 
@@ -662,7 +656,6 @@ padding: 35px;
   text-decoration: none;
 
 }
-
 
 @media (max-width: 575px){
 
